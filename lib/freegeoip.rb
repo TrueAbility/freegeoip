@@ -12,7 +12,7 @@ module FreeGeoIP
   end
 
   def self.connection
-    Faraday.new(:url => url") do |builder|
+    Faraday.new(:url => url) do |builder|
       builder.adapter Faraday.default_adapter
     end
   end
